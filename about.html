@@ -4,42 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>About Us</title>
     <link rel="icon" type="image/x-icon" href="./logoipsum-logo-35.svg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="./logoipsum-logo-35.svg" alt=""><h1>TODO LIST</h1>
-       <ul>
-           <li><a href="index.html" class="">Home</a></li>
-           <li><a href="about.html" class="">About</a></li>
-       </ul>
+        <img class="myLogo" src="./logoipsum-logo-35.svg" alt="">
+        <nav class="majorNav">
+          <a href="index.html" class="myNav">Home</a>
+          <a href="about.html" class="myNav">About US</a>
+        </nav>
     </header>
     <main>
         <section>
-            <h3>My Info</h3>
-            <p>Name: Ahmad Tayseer.</p>
-            <p>Description: A mechancial engineer who have a passion on programming and coding.</p>
-            <img src="/12461.jpg" alt="">
+            <h3 class="mySecondHeader">My Info</h3>
+            <img class="myPhoto" src="/12461.jpg" alt="">
+            <p class="myName">Ahmad Tayseer</p>
+            <p class="myOverview">A mechancial engineer who have a passion on programming and coding.</p>
         </section>
         <section>
-            <h3>Provide Your Contact Info</h3>
+            <h3 class="myThirdHeader">Provide Your Contact Info</h3>
             <form>
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <input type="text" id="message" name="message">
+                <label class="myWord" for="fname">First name:</label><br>
+                <input class="myInputBox" type="text" id="fname" name="fname"><br>
+                <label class="myWord" for="email">Email:</label><br>
+                <input class="myInputBox" type="text" id="email" name="email"><br>
+                <label class="myWord" for="phone">Phone:</label><br>
+                <input class="myInputBox" type="text" id="phone" name="phone"><br>
+                <label class="myWord" for="message">Message:</label><br>
+                <input class="myInputBox" type="text" id="message" name="message">
               </form>
         </section>
     </main>
     <footer>
-        <p>Contact me on</p>
-        <a href="https://www.whatsapp.com/" class="">Whatsapp</a>
-        <a href="https://www.facebook.com/" class="">Facebook</a>
-        <a href="https://mail.google.com/" class="">Gmail</a>    
-        <p>Copyright © 2022 TODO LIST. All Rights Reserved.</p>
+        <p class="myContact">Contact me on</p>
+        <a href="https://www.whatsapp.com/" class="myContacts">Whatsapp</a>
+        <a href="https://www.facebook.com/" class="myContacts">Facebook</a>
+        <a href="https://mail.google.com/" class="myContacts">Gmail</a>    
+        <p class="copyRight">Copyright © 2022 TODO LIST. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
