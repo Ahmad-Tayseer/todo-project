@@ -6,42 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="icon" type="image/x-icon" href="./logoipsum-logo-35.svg">
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="./logoipsum-logo-35.svg" alt=""><h1>TODO LIST</h1>
-       <ul>
-           <li><a href="index.html" class="">Home</a></li>
-           <li><a href="about.html" class="">About</a></li>
-           <script src="./app.js"></script>
-       </ul>
+        <img class="myLogo" src="./logoipsum-logo-35.svg" alt="">
+        <nav class="majorNav">
+          <a href="index.html" class="myNav">Home</a>
+          <a href="about.html" class="myNav">About US</a>
+        </nav>
     </header>
     <main>
-        <table>
+      <h1 class="myHeader">ToDo List</h1>
+        <table class="myTable">
             <tr>
-              <th>Task</th>
-              <th>Status</th>
+              <th class="myCell">Task</th>
+              <th class="myCell">Status</th>
             </tr>
             <tr>
-              <td>Task 1</td>
-              <td>Solved</td>
+              <td class="myCell">Task 1</td>
+              <td class="myCel">Solved</td>
             </tr>
             <tr>
-              <td>Task 2</td>
-              <td>Solved</td>
+              <td class="myCell">Task 2</td>
+              <td class="myCel">Solved</td>
             </tr>
             <tr>
-                <td>Task 3</td>
-                <td>Not Yet</td>
+                <td class="myCell">Task 3</td>
+                <td class="myCe">Not Yet</td>
               </tr>
           </table>
     </main>
     <footer>
-        <p>Contact me on</p>
-        <a href="https://www.whatsapp.com/" class="">Whatsapp</a>
-        <a href="https://www.facebook.com/" class="">Facebook</a>
-        <a href="https://mail.google.com/" class="">Gmail</a>    
-        <p>Copyright © 2022 TODO LIST. All Rights Reserved.</p>
+        <p class="myContact">Contact me on</p>
+        <a href="https://www.whatsapp.com/" class="myContacts">Whatsapp</a>
+        <a href="https://www.facebook.com/" class="myContacts">Facebook</a>
+        <a href="https://mail.google.com/" class="myContacts">Gmail</a>    
+        <p class="copyRight">Copyright © 2022 TODO LIST. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
