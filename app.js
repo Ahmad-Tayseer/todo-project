@@ -3,13 +3,13 @@
 var userName = prompt("Enter your name.");
 console.log(userName);
 
-var userGender = prompt("Enter your gender. The answer should be either (male or female).");
+var userGender = prompt("Enter your gender. \n*The answer should be either (male or female).");
 console.log(userGender);
 
 var userAge = prompt("Enter your age.");
 console.log(userAge);
 
-if (userAge <= 0) {
+while (userAge <= 0) {
     alert("The age entered is unrealistic, please enter again.");
     var userAge = prompt("Enter your age.");
     console.log(userAge);
